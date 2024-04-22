@@ -149,18 +149,18 @@ float MediaPilha(Pilha &pilha) {
 \textbf{Solução}
 \begin{lstlisting}
 int MenorPilha(Pilha &pilha) {
-    int menor;
-    int elemento;
-    Pilha aux; IniciaPilha(aux);
-    while (Desempilha(pilha, elemento)) {
-        if (menor == NULL) menor = elemento;
-        else if (elemento < menor) menor = elemento;
-        Empilha(aux, elemento);
-    }
-    while (Desempilha(aux, elemento)) {
-        Empilha(pilha, elemento);
-    }
-    return menor;
+	int menor = TopoPilha(pilha)->Info;
+	int elemento;
+	Pilha aux;
+	IniciaPilha(aux);
+	while (Desempilha(pilha, elemento)) {
+		if (elemento < menor) menor = elemento;
+		Empilha(aux, elemento);
+	}
+	while (Desempilha(aux, elemento)) {
+		Empilha(pilha, elemento);
+	}
+	return menor;
 }
 \end{lstlisting}
 
