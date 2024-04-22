@@ -8,6 +8,7 @@ Esse repositório serve para gerenciar as listas de exercícios da disciplina de
 
 | Diretório | Finalidade |
 | ------ | ------ |
-| [src](https://github.com/carlosaugustoribeiro/algoritmos-estrutura-dados-exercicios/tree/main/src) | arquivos fonte **.tex** e arquivos relacionados como imagens e outros auxiliares ao fonte |
+| [src-cpp](https://github.com/carlosaugustoribeiro/algoritmos-estrutura-dados-exercicios/tree/main/src-cpp) | arquivos fonte **.cpp** com as implementações utilizadas para resolver os exercícios |
+| [src-text](https://github.com/carlosaugustoribeiro/algoritmos-estrutura-dados-exercicios/tree/main/src-tex) | arquivos fonte **.tex** e arquivos relacionados como imagens e outros auxiliares ao fonte |
 | [out](https://github.com/carlosaugustoribeiro/algoritmos-estrutura-dados-exercicios/tree/main/out) | arquivos **PDF** gerados a partir do fontes |
 
